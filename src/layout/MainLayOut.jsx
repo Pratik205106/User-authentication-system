@@ -5,10 +5,10 @@ const MainLayOut = () => {
   return (
     <div>
         <header>
-            <nav className='bg-indigo-900 p-6 shadow-lg'>
+            <nav className='bg-indigo-600 p-6 shadow-lg'>
                 <ul className='grid grid-cols-5 text-center'>
                     <li className='text-white text-xl'>
-                        <NavLink to='/'>Home</NavLink>
+                        <NavLink to='/'>Home</NavLink> 
                     </li>
                     <li className='text-white text-xl'>
                         <NavLink to='/about'>About</NavLink>

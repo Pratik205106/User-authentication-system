@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Help from "../pages/Help";
 import Fetch from "../pages/Fetch";
 import Login from "../pages/Login";
+import SignUp from "../pages/SignUp";
 
 
 export const route = createBrowserRouter([
@@ -31,6 +32,10 @@ element: <Fetch/>,
 {
     path: '/login',
     element: <Login/>,
+},
+{
+    path: '/signUp',
+    element: <SignUp/>,
 },
 ],
 },
